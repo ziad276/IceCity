@@ -1,0 +1,14 @@
+C:\Users\ziadg\source\repos\IceCity\IceCity\bin\Debug\net8.0\IceCity.exe
+C:\Users\ziadg\source\repos\IceCity\IceCity\bin\Debug\net8.0\IceCity.deps.json
+C:\Users\ziadg\source\repos\IceCity\IceCity\bin\Debug\net8.0\IceCity.runtimeconfig.json
+C:\Users\ziadg\source\repos\IceCity\IceCity\bin\Debug\net8.0\IceCity.dll
+C:\Users\ziadg\source\repos\IceCity\IceCity\bin\Debug\net8.0\IceCity.pdb
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.AssemblyInfoInputs.cache
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.AssemblyInfo.cs
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.csproj.CoreCompileInputs.cache
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.dll
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\refint\IceCity.dll
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.pdb
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\IceCity.genruntimeconfig.cache
+C:\Users\ziadg\source\repos\IceCity\IceCity\obj\Debug\net8.0\ref\IceCity.dll

@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "IceCity": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

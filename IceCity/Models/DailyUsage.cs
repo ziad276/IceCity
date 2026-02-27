@@ -17,7 +17,7 @@ namespace IceCity.Models
             Hours = hours;
             HeaterValue = heaterValue;
         }
-        private DateTime Date { get; set; }
+        public DateTime Date { get; set; } 
        
 
         public int Hours

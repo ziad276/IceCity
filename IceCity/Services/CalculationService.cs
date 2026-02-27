@@ -9,9 +9,9 @@ namespace IceCity.Services
 {
 
 
-    public class CalculationService 
+    public class CalculationService
     {
-        
+
         public int CalculateWorkingTime(List<DailyUsage> dailyUsages)
         {
             int n = dailyUsages.Count();
@@ -33,9 +33,9 @@ namespace IceCity.Services
                 HeaterValues.Add(usage.HeaterValue);
             }
             int n = HeaterValues.Count();
-            for(int i = 0; i < n; i++)
+            for (int i = 0; i < n; i++)
             {
-                for(int j = i +1 ; j < n; j++)
+                for (int j = i + 1; j < n; j++)
                 {
                     if (HeaterValues[i] > HeaterValues[j])
                     {
@@ -47,7 +47,17 @@ namespace IceCity.Services
                 }
             }
             int median = HeaterValues[n / 2];
-            return median;
+            if (median.IsEven())
+            {
+                Console.WriteLine($"Median {median} is even");
+
+            }
+            else
+            {
+                Console.WriteLine($"Median {median} is odd");
+            }
+
+                return median;
         }
 
         public double CalculateAverageCost(int totalWorkingTime, int medianHeaterValue, int numberOfDays)
@@ -55,8 +65,17 @@ namespace IceCity.Services
             double averageCost = medianHeaterValue * ((double)totalWorkingTime / (24 * numberOfDays));
             return averageCost;
         }
-    }
 
-   
+
+    }
+    public static class Validate
+    {
+        public static bool IsEven(this int number)
+        {
+            return number % 2 == 0;
+        }
+
+
+    }
 }
 

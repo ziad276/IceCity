@@ -1,4 +1,4 @@
-﻿using IceCity.Services;
+using IceCity.Services;
 
 namespace IceCity.Models
 {
@@ -55,22 +55,9 @@ namespace IceCity.Models
         }
 
 
-        public double CalculateMonthlyCost()
+        public double CalculateMonthlyCost(ICostService costService, string strategyType)
         {
-            if (DailyUsages.Count == 0)
-            {
-                throw new InvalidOperationException("No daily usage data available");
-            }
-
-            CalculationService service = new CalculationService();
-
-            int totalHours = service.CalculateWorkingTime(DailyUsages);
-            int medianValue = service.CalculateMedianValue(DailyUsages);
-            int numberOfDays = DailyUsages.Count;
-
-            double cost = service.CalculateAverageCost(totalHours, medianValue, numberOfDays);
-
-            return cost;
+            return costService.CalculateMonthlyCost(DailyUsages, strategyType);
         }
         public async Task TryOpenHeaterAsync(int heaterIndex)
         {
